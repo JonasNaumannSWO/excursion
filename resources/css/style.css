@@ -1,0 +1,59 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1{
+    opacity: 87%;
+    font-weight: normal;
+    font-size: 3.125rem;
+}
+
+a{
+    text-decoration: none;
+    opacity: 60%;
+    color: rgb(240, 75, 255);
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#video{
+    padding-top: 0.9375rem;
+}
+
+main h1{
+    font-weight: 300;
+    font-size: 2.625rem;
+}
+
+main p{
+    font-size: 1.3125rem;
+    opacity: 60%;
+}
+
+#phone{
+    padding-top: 0.9375rem;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer p{
+    margin-right: 0.9375rem;
+    margin-bottom: 0.9375rem;
+}
